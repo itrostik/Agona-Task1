@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+body, html{
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 15px;
+  margin: 0 0 20px 0;
+  background: #2d2d2d;
+}
+
+.header__logo{
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.header__list{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.header__list-item{
+  transition: 0.5s;
+}
+
+
+.header__list-item:hover{
+  color: #6b6b6b;
+}
+
+.main{
+  flex: 1 1 auto;
+  padding: 0 15px;
+  margin: 30px 0;
+}
+
+.main__info{
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.main__info-title{
+  flex: 1 1 100%;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.main__info-text{
+  font-size: 20px;
+  width: 100%;
+  margin: 0 0 80px 0;
+}
+
+.main__info-image{
+  width: 100%;
+  height: 700px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  padding: 30px 15px;
+  background: #2d2d2d;
+}
+
+
+.main__info-fitness{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.fitness-club__body{
+  display: flex;
+  /*flex-wrap: wrap;*/
+  gap: 20px;
+}
+
+.fitness-club__title{
+  flex: 1 1 100%;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+.fitness-club__text{
+  font-size: 20px;
+  flex: 1 1 50%;
+}
+
+.fitness-club__image{
+  /*flex: 1 1 40%;*/
+  max-width: 900px;
+}
+
+th{
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+td{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.main__info-treners{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main__info-trener{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 2px solid #6b6b6b;
+  border-radius: 20px;
+  padding: 15px;
+  flex: 1 1 40%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trener__title{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.trener__text{
+  font-size: 24px;
+  text-align: center;
+}
+
+.trener__image{
+  width: 800px;
+  border-radius: 20px;
+  height: 600px;
+  justify-self: flex-end;
+}
+
+.main__info-form{
+  display: flex;
+  /*flex-direction: column;*/
+  gap: 30px;
+  width: 100%;
+}
+
+label{
+  width: 100%;
+}
+
+input{
+  padding: 20px 30px;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button{
+  cursor: pointer;
+  width: 300px;
+  padding: 20px 15px;
+  background: #6b6b6b;
+  color: #ffffff;
+  border-radius: 10px;
+}
